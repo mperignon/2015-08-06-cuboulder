@@ -14,7 +14,7 @@ enddate: 2015-08-07    # use YYYY-MM-DD format like 2015-01-02
 instructor: ['Mariela Perignon','Thomas Guignard'] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ['Shelley Knuth','Prasanth Prahladan']     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: andrew.m.johnson@colorado.edu    # contact email address for workshop organizer
-etherpad:   # optional (insert the URL for your Etherpad if you're using one)
+etherpad: https://etherpad.mozilla.org/2015-08-06-cuboulder  # optional (insert the URL for your Etherpad if you're using one)
 ---
 <!--
   HEADER
@@ -281,12 +281,6 @@ etherpad:   # optional (insert the URL for your Etherpad if you're using one)
   To participate in a Software Carpentry workshop, you will need
   access to the software described below. In addition, you will
   need an up-to-date web browser.
-  Once you are done installing the software listed below,
-  please go to <a href="setup/index.html">this page</a>,
-  which has instructions on how to test that everything was installed correctly.
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
 <div id="shell"> <!-- Start of 'shell' section. -->
@@ -564,6 +558,32 @@ etherpad:   # optional (insert the URL for your Etherpad if you're using one)
   </div>
 </div> <!-- End of 'SQLite' section. -->
 
+
+<h2 id="setup">Testing your installation</h2>
+
+<p>
+If you have trouble with installation, please come at 8:30 on the first morning and we'll help troubleshoot. You can also email <a href='mailto:perignon@colorado.edu'>the instructors</a> before the workshop.
+</p>
+<p>
+Open a command line window ('terminal' or, on windows, 'git bash'), and enter the following commands (without the $ sign)
+
+$git --version
+$python --version
+$nano --version
+
+If git and python and nano (a text editor) have been installed, those commands *should* print output version information.  The python version should include "Anaconda" and its version information.
+
+Ipython is a python development environment that comes pre-installed with the Anaconda python distribution.  To see if you have it, type the following into your terminal window:
+
+$ipython notebook
+
+This should open a programming interface in your default web browser.  It may take a few minutes the first time.  To close, just close your browser and then CTRL-C to end the process in the command line.  
+</p>
+<p>
+We maintain a list of common issues that occur during installation as a reference for instructors
+  that may be useful on the
+  <a href = "https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+</p>
 <!--
   Uncomment this section if you are using our virtual machine.
 
