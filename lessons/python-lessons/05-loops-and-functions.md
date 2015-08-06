@@ -257,7 +257,7 @@ for year in range(1977,2003):
 Look inside the `yearly_files` directory and check a couple of the files you
 just created to confirm that everything worked as expected.
 
-## Writing unique filencames
+## Writing unique filenames
 
 Notice that the code above created a unique filename for each year. 
 
