@@ -4,7 +4,7 @@ title: Programming with Python
 subtitle: Python lessons for CU libraries
 ---
 
-[Download data](data.zip)
+[Download data](https://github.com/mperignon/2015-08-06-cuboulder/blob/gh-pages/lessons/python-lessons/data.zip?raw=true)
 
 1. [Starting with data](01-intro.html)
 2. [Storing values in lists](02-lists.html)
